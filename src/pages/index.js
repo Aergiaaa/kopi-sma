@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="bg-[var(--bg)] text-white font-serif m-0 p-0 box-border [outline:none;] [text-decoration:none;] ">
+    <div className="bg-[var(--bg)] text-white font-sans m-0 p-0 box-border [outline:none;] [text-decoration:none;] ">
       <nav className=" navbar">
         <Link href="#" className=" text-[2rem] font-[700] text-white italic">
           Kopi <span className=" text-[var(--primary)]">Sma</span>.
@@ -100,6 +100,6 @@ export default function Home() {
         <div id="tujuan"></div>
       </div>
       <div id="footer"></div> */}
-    </main>
+    </div>
   );
 }
