@@ -3,11 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-<<<<<<< HEAD
-    <div className="bg-[var(--bg)] text-white font-sans m-0 p-0 box-border [outline:none;] [text-decoration:none;] ">
-=======
     <div className="bg-[var(--bg)] text-white m-0 p-0 box-border [outline:none;] [text-decoration:none;] ">
->>>>>>> feat
       <nav className=" navbar">
         <Link href="#" className=" text-[2rem] font-[700] text-white italic">
           Kopi<span className=" text-[var(--primary)]">Sekolah</span>.
@@ -34,10 +30,7 @@ export default function Home() {
           >
             Tujuan
           </Link>
-<<<<<<< HEAD
-=======
           <i id="hamburger" className=" hidden text-[var(--primary)]"></i>
->>>>>>> feat
         </nav>
       </nav>
 
@@ -98,11 +91,7 @@ export default function Home() {
         </section>
         <div id="tujuan"></div> */}
       </div>
-<<<<<<< HEAD
-      <div id="footer"></div> */}
-=======
       {/* <div id="footer"></div> */}
->>>>>>> feat
     </div>
   );
 }
