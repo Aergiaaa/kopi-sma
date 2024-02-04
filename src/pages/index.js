@@ -6,7 +6,7 @@ export default function Home() {
     <div className="bg-[var(--bg)] text-white font-poppins m-0 p-0 box-border [outline:none;] [text-decoration:none;] ">
       <nav className=" navbar">
         <Link href="#" className=" text-[2rem] font-[700] text-white italic">
-          kopi<span className=" text-[var(--primary)]">SMA</span>.
+          kopi<span className=" text-[var(--primary)]">sekolah</span>.
         </Link>
         <nav className="">
           <Link
@@ -37,7 +37,7 @@ export default function Home() {
       >
         <main className=" py-[1.4rem] px-[7%] w-[100%] fixed top-[130px] text-center">
           <h1 className=" hero-content">
-            Secangkir
+            Nikmatnya Secangkir
             <span className="text-[var(--primary2)]"> Kopi </span>
             Setelah Sekolah
           </h1>
@@ -56,8 +56,8 @@ export default function Home() {
               id="content"
               className="flex-grow-[1] flex-shrink-[1] basis-[35rem] py-[0] px-[1rem]"
             >
-              <h3 className="text-[1.8rem] mb-[1rem] font-[500] ">
-                kopi<span className=" text-[var(--primary2)]">sma</span>
+              <h3 className="text-[1.8rem] mb-[1rem] font-bold italic">
+                kopi<span className=" text-[var(--primary2)]">sekolah</span>
               </h3>
               <div
                 id="content content"
@@ -65,10 +65,12 @@ export default function Home() {
               >
                 <p>
                   {" "}
-                  Mengadopsi konsep fresh-to-cup yang menyajikan pilihan Kopi
-                  Lokal Indonesia. Penyajian kami yang trendi dan tetap
-                  menghadirkan produk-produk klasik bercita rasa kopi adalah
-                  kelebihan kami.
+                  Kami berdedikasi untuk menciptakan kopi yang lezat dan
+                  berkualitas tetapi dengan harga yang sangat terjangkau. Tujuan
+                  kami adalah agar setiap orang, terutama generasi muda, bisa
+                  menikmati rasa kopi yang enak setelah seharian belajar. Dengan
+                  menawarkan kopi yang murah namun tidak mengorbankan rasa, kami
+                  berharap bisa membawa ketenangan setelah beraktivitas.
                 </p>
               </div>
             </section>
