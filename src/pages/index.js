@@ -3,86 +3,89 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <div className="bg-[var(--bg)] text-white font-sans m-0 p-0 box-border [outline:none;] [text-decoration:none;] ">
+=======
+    <div className="bg-[var(--bg)] text-white m-0 p-0 box-border [outline:none;] [text-decoration:none;] ">
+>>>>>>> feat
       <nav className=" navbar">
         <Link href="#" className=" text-[2rem] font-[700] text-white italic">
-          Kopi <span className=" text-[var(--primary)]">Sma</span>.
+          Kopi<span className=" text-[var(--primary)]">Sekolah</span>.
         </Link>
-        <nav className="">
+        <nav className="navbar-detail">
           <Link
+            id="nav-a"
             href="#tentang"
             className=" hover:after:transform-scalex-05 navbar-nav after:nav-after hover:text-[var(--primary)]"
           >
             Tentang
           </Link>
           <Link
+            id="nav-a"
             href="#menu"
             className="hover:after:transform-scalex-05 navbar-nav after:nav-after hover:text-[var(--primary)]"
           >
             Menu
           </Link>
           <Link
+            id="nav-a"
             href="#tujuan"
             className="navbar-nav hover:after:transform-scalex-05 after:nav-after hover:text-[var(--primary)]"
           >
             Tujuan
           </Link>
+<<<<<<< HEAD
+=======
+          <i id="hamburger" className=" hidden text-[var(--primary)]"></i>
+>>>>>>> feat
         </nav>
       </nav>
-      {/* <section
+
+      <section
         id="hero"
-        className=" min-h-[100vh] flex items-center bg-no-repeat relative bg-cover bg-img hero-after"
+        className=" flex min-h-[100vh] items-center bg-hero bg-no-repeat bg-cover bg-center relative gradient-mask"
       >
-        <main className=" p-[1.4rem 7%] max-w-[60rem]">
-          <h1 className="size-[5rem] text-white shadow-[1px 1px 3px rgba(1,1,3,0.5)] leading-[1.2]">
-            Pulang Sekolah Enaknya <span className="text-[#926d49]">Ngopi</span>{" "}
-            Dulu Gk Sih?
+        <main className=" py-[1.4rem] px-[7%] w-[100%] fixed top-[180px] text-center">
+          <h1 className=" hero-content">
+            Nikmatnya Secangkir
+            <span className="text-[var(--primary2)]"> Kopi </span>
+            Setelah Sekolah
           </h1>
-          <p className="size-[1.6rem] mt-[0.7rem] leading-[1.3] font-[300]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            nesciunt modi excepturi vero animi possimus ratione obcaecati
-            incidunt illum aperiam! Explicabo incidunt reiciendis in quidem
-            consequuntur, laboriosam ipsam voluptas veritatis?
-          </p>
-          <Link
-            href="#menu"
-            className=" mt-[1rem] inline-block p-[1rem 3 rem] size-[1.4rem] text-white bg-[var(--primary)] border-r-[0.5rem] shadow-[1px 1px 3px rgba(1,1,3,0.5)]"
-            >
-            Liat dulu aja
-            </Link>
-            </main>
-            </section>
-            <div id="detail">
-        <section id="tentang" className=" p-[8rem 7% 1.4rem]">
-          <h2 className=" text-center size-[2.6rem] mb-[3rem]">
+        </main>
+      </section>
+      <div id="detail">
+        <section id="tentang" className=" pt-[8rem] px-[7%] pb-[1.4rem]">
+          <h2 className=" text-center text-[2.6rem] mb-[3rem] font-[300]">
             <span className="text-[var(--primary)]">Tentang</span> Kami
           </h2>
           <div id="row" className="flex">
-            <Image
-              alt="gambar kami"
-              className=" flex-[1 1 45rem] w-[100%]"
-            ></Image>
-            <section id="content" className="flex-[1 1 35rem] p-[0 1rem]">
-              <h3 className="size-[1.8rem] mb-[1rem]">Siapa Kami?</h3>
-              <div id="content content" className=" size-[1.3rem] font-[300] leading-[1.6] mb-[0.8rem]">
+            <section
+              id="content"
+              className="flex-grow-[1] flex-shrink-[1] basis-[35rem] py-[0] px-[1rem]"
+            >
+              <div
+                id="content-content"
+                className=" text-[1.3rem] font-[100] leading-[1.6] mb-[0.8rem] pr-[1rem] "
+              >
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
-                  consequuntur blanditiis, fuga consequatur pariatur, distinctio
-                  suscipit dolor impedit voluptatibus aliquid neque modi?
-                  Accusantium nemo amet nesciunt cumque placeat. Quod, ipsum.
-                </p>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Consectetur odio suscipit, reprehenderit eos blanditiis
-                  aperiam perspiciatis nemo quibusdam laboriosam earum sapiente
-                  temporibus aliquid adipisci laudantium cumque consequuntur at
-                  sed repellat.
+                  {" "}
+                  Kami berdedikasi untuk menciptakan kopi yang lezat dan
+                  berkualitas tetapi dengan harga yang sangat terjangkau. Tujuan
+                  kami adalah agar setiap orang, terutama generasi muda, bisa
+                  menikmati rasa kopi yang enak setelah seharian belajar.
                 </p>
               </div>
             </section>
+            <Image
+              alt="gambar kami"
+              className="about-img"
+              src="/img/tyler-nix-yGb2igKldYg-unsplash.jpg"
+              width="400"
+              height="300"
+            ></Image>
           </div>
         </section>
-        <section id="menu" className=" p-[8rem 7% 1.4rem]">
+        {/* <section id="menu" className=" p-[8rem 7% 1.4rem]">
           <h2 className=" text-center size-[2.6rem] mb-[1rem]"><span className="text-[var(--primary)]">Our</span> Menu</h2>
           <p className=" text-center max-w-[30rem] m-auto font-[300] leading-[1.6] size-[1.3rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque sequi dignissimos perferendis placeat enim voluptatibus tempora possimus optio labore nam, necessitatibus architecto, ipsum numquam rem ad provident modi maiores ipsa?</p>
           <div id="row" className="flex flex-wrap mt-[5rem] justify-center size-[1.8rem]">
@@ -93,9 +96,13 @@ export default function Home() {
           </div>
           </div>
         </section>
-        <div id="tujuan"></div>
+        <div id="tujuan"></div> */}
       </div>
+<<<<<<< HEAD
       <div id="footer"></div> */}
+=======
+      {/* <div id="footer"></div> */}
+>>>>>>> feat
     </div>
   );
 }
