@@ -1,0 +1,77 @@
+/*========== font ========== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --first-color: #a86302;
+  --first-color-alt: #a86302;
+  --title-color: #393939;
+  --text-color: #4a4a4a;
+  --text-color-light: #9b9b9b;
+  --body-color: #dfeaec;
+  --container-color: #dfeaec;
+
+  /*========== Shadow ============*/
+  --text-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  --box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+
+  /*========== Font and typography ==========*/
+  /* === *fs = font size === */
+  --body-font: "Poppins", sans-serif;
+  --biggest-font-size: 2.25rem;
+  --big-font-size: 1.85rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+
+  /*========== Font weight ==========*/
+  /* 
+  f=font
+  m=medium
+  sb=semi bold
+  */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== Margin ==========*/
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/* more than tablet */
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+/*========== Variables Dark theme ==========*/
+body.dark-theme {
+  --title-color: #f1f3f2;
+  --text-color: #c7d1cc;
+  --body-color: #140c00;
+  --container-color: #644310cf;
+  --box-shadow: 0 2px 4px rgba(3, 74, 40, 0.15);
+  --text-shadow: none;
+  --box-shadow: none;
+}
