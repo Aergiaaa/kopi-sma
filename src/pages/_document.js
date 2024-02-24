@@ -1,6 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
-import Link from "next/link";
 import HeaderComponent from "@/component/Header/UI/HeaderComponent";
 
 export default function Document() {
